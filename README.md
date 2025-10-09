@@ -55,39 +55,27 @@ Welcome to the **Airbnb Hotel Booking Analysis** project! This repository contai
 
 ## 🎯 Project Components
 
-### 1. Python Code (`code/simple_airbnb_basic_full.py`)  
+### Python Code (`code/airbnb.py`)  
 - **load_data()**: Reads Excel/CSV or loads sample data  
 - **basic_analysis()**: Computes average, min, max price  
 - **full_analysis()**: Adds breakdown by room type & neighborhood  
 - **main()**: Ties it together with user prompts  
 
-### 2. Data (`data/airbnb_listings.csv`)  
+### Data (`data/airbnb.csv`)  
 - ~102,599 Airbnb listings  
 - Key columns: `price`, `room type`, `neighbourhood group`  
 
-### 3. Outputs (`output/`)  
+### Outputs (`output/`)  
 - **Average Price per Room Type_Figure_2.webp**: Average price by room type  
 - **Average Price per Neighbourhood group_Figure_3.webp**: Average price by borough  
 - **Price Distribution_Figure_1.webp**: Availability distribution chart  
 - **Basic Analysis.png**: Screenshot of basic mode  
 - **Full Analysis.png**: Screenshot of full mode  
 
-### 4. Presentation (`ppt/Airbnb_Hotel_Analysis.pptx`)  
-Contains slides on:
-- Objective & scope  
-- Data overview  
-- Methodology  
-- Key findings  
-- Charts & visuals  
-- Recommendations  
-- Code & GitHub link  
-
-***
-
 ## 🔗 GitHub Repository
 
 Visit the live repo here:  
-https://github.com/YourUsername/airbnb-analysis
+https://github.com/CosmicStorm09/VOIS_AICTE_Oct2025_Harsh
 
 Clone and explore all code, data, outputs, and the PPT.
 
