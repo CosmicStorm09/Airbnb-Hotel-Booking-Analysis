@@ -5,7 +5,7 @@ Welcome to the **Airbnb Hotel Booking Analysis** project! This repository contai
 ## 📂 Repository Structure  
 ```
 ├── data/
-│   └── airbnb.csv         # Raw Airbnb dataset (CSV)
+│   └── airbnb.xlsx        # Raw Airbnb dataset (XLSX/CSV)
 │
 ├── code/
 │   └── airbnb.py          # Python script with “basic” and “full” modes
@@ -43,11 +43,11 @@ Welcome to the **Airbnb Hotel Booking Analysis** project! This repository contai
    ```bash
    python code/airbnb.py
    ```
-   - Enter the path to `data/airbnb.csv` when prompted  
+   - Enter the path to `data/airbnb.xlsx` when prompted  
    - Choose **basic** or **full** mode for results  
 
 4. **View outputs**  
-   - Results CSV: `output/simple_airbnb_results.csv`  
+   - Results CSV: `output/airbnb_results.csv`  
    - Visual charts in `output/`  
    - Terminal screenshots in `output/`
 
@@ -56,7 +56,7 @@ Welcome to the **Airbnb Hotel Booking Analysis** project! This repository contai
 ## 🎯 Project Components
 
 ### Python Code (`code/airbnb.py`)  
-- **load_data()**: Reads Excel/CSV or loads sample data  
+- **load_data()**: Reads CSV or loads sample data  
 - **basic_analysis()**: Computes average, min, max price  
 - **full_analysis()**: Adds breakdown by room type & neighborhood  
 - **main()**: Ties it together with user prompts  
