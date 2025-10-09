@@ -4,12 +4,11 @@ Welcome to the **Airbnb Hotel Booking Analysis** project! This repository contai
 
 ## 📂 Repository Structure  
 ```
-.
 ├── data/
-│   └── airbnb_listings.csv         # Raw Airbnb dataset (CSV)
+│   └── airbnb.csv         # Raw Airbnb dataset (CSV)
 │
 ├── code/
-│   └── simple_airbnb_basic_full.py # Python script with “basic” and “full” modes
+│   └── airbnb.py          # Python script with “basic” and “full” modes
 │
 ├── output/
 │   ├── simple_airbnb_results.csv   # CSV of analysis results
