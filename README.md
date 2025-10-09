@@ -1,2 +1,1 @@
-# VOIS_AICTE_Oct2025_Harsh
-"Data analysis project on AirBNB hotel bookings using Python. Explores booking trends, pricing patterns, and guest preferences with data cleaning, visualization, and insights. Includes all code, results, and screenshots as required for the VOIS AICTE 2025 DIY project.
+This repository contains a simple Python-based analysis of Airbnb listings to extract key pricing insights, perform market segmentation by room type and neighborhood, and generate actionable recommendations. The project was completed as part of the VOIS AICTE DIY internship, October 2025.
