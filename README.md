@@ -1,80 +1,127 @@
-Airbnb Hotel Booking Analysis
-Project Overview
+# Airbnb Hotel Booking Analysis
 
-This repository contains a simple Python-based analysis of Airbnb listings to extract key pricing insights, perform market segmentation by room type and neighborhood, and generate actionable recommendations. The project was completed as part of the VOIS AICTE DIY internship, October 2025.
-Repository Structure
+Welcome to the **Airbnb Hotel Booking Analysis** project! This repository contains everything needed to reproduce the analysis, view visuals, and review the presentation.
 
-text
-airbnb-analysis/  
-│  
-├── data/  
-│   └── airbnb_listings.csv      # Airbnb CSV dataset  
-│  
-├── code/  
-│   └── simple_airbnb_basic_full.py  # Python analysis script  
-│  
-├── output/  
-│   ├── simple_airbnb_results.csv    # Generated CSV results  
-│   ├── chart_room_type.png          # Bar chart: average price by room type  
-│   ├── chart_borough.png            # Bar chart: average price by borough  
-│   ├── chart_availability.png       # Chart: availability distribution  
-│   ├── prompt_basic.png             # Screenshot: basic mode terminal run  
-│   └── prompt_full.png              # Screenshot: full mode terminal run  
-│  
-├── ppt/  
-│   └── Airbnb_Hotel_Analysis.pptx   # Final project presentation  
-│  
-└── README.md                        # This file  
+## 📂 Repository Structure  
+```
+.
+├── data/
+│   └── airbnb_listings.csv         # Raw Airbnb dataset (CSV)
+│
+├── code/
+│   └── simple_airbnb_basic_full.py # Python script with “basic” and “full” modes
+│
+├── output/
+│   ├── simple_airbnb_results.csv   # CSV of analysis results
+│   ├── chart_room_type.png         # Bar chart: avg price by room type
+│   ├── chart_borough.png           # Bar chart: avg price by borough
+│   ├── chart_availability.png      # Chart: availability distribution
+│   ├── prompt_basic.png            # Screenshot: basic mode run
+│   └── prompt_full.png             # Screenshot: full mode run
+│
+├── ppt/
+│   └── Airbnb_Hotel_Analysis.pptx  # Final presentation
+│
+└── README.md                       # This file
+```
 
-How to Run the Analysis
+***
 
-    Clone the repository
+## 🚀 Quick Start
 
-bash
-git clone https://github.com/YourUsername/airbnb-analysis.git
-cd airbnb-analysis
+1. **Clone this repository**  
+   ```bash
+   git clone https://github.com/YourUsername/airbnb-analysis.git
+   cd airbnb-analysis
+   ```
 
-Install dependencies
+2. **Install dependencies**  
+   ```bash
+   pip install pandas openpyxl
+   ```
 
-bash
-pip install pandas openpyxl
+3. **Run the analysis**  
+   ```bash
+   python code/simple_airbnb_basic_full.py
+   ```
+   - Enter the path to `data/airbnb_listings.csv` when prompted  
+   - Choose **basic** or **full** mode for results  
 
-Run the script
+4. **View outputs**  
+   - Results CSV: `output/simple_airbnb_results.csv`  
+   - Visual charts in `output/`  
+   - Terminal screenshots in `output/`
 
-    bash
-    python code/simple_airbnb_basic_full.py
+***
 
-        When prompted, enter the path to data/airbnb_listings.csv.
+## 🎯 Project Components
 
-        Choose basic or full mode for analysis.
+### 1. Python Code (`code/simple_airbnb_basic_full.py`)  
+- **load_data()**: Reads Excel/CSV or loads sample data  
+- **basic_analysis()**: Computes average, min, max price  
+- **full_analysis()**: Adds breakdown by room type & neighborhood  
+- **main()**: Ties it together with user prompts  
 
-    View outputs
+### 2. Data (`data/airbnb_listings.csv`)  
+- ~102,599 Airbnb listings  
+- Key columns: `price`, `room_type`, `neighbourhood_group`  
 
-        Results saved to output/simple_airbnb_results.csv.
+### 3. Outputs (`output/`)  
+- **simple_airbnb_results.csv**: Tabular results  
+- **chart_room_type.png**: Average price by room type  
+- **chart_borough.png**: Average price by borough  
+- **chart_availability.png**: Availability distribution chart  
+- **prompt_basic.png**: Screenshot of basic mode  
+- **prompt_full.png**: Screenshot of full mode  
 
-        Charts and terminal screenshots located in output/.
+### 4. Presentation (`ppt/Airbnb_Hotel_Analysis.pptx`)  
+Contains slides on:
+- Objective & scope  
+- Data overview  
+- Methodology  
+- Key findings  
+- Charts & visuals  
+- Recommendations  
+- Code & GitHub link  
 
-Screenshots & Visuals
+***
 
-    Basic mode: average, min, max prices (output/prompt_basic.png)
+## 📊 Visuals Preview
 
-    Full mode: includes room type and neighborhood breakdown (output/prompt_full.png)
+![Room Type Chart](output/chart_room_type.png
 
-    Charts:
+  
+  
+![Availability Chart](output/chart_availability
 
-        Room type averages (output/chart_room_type.png)
+## 📝 Presentation
 
-        Borough averages (output/chart_borough.png)
+Open **ppt/Airbnb_Hotel_Analysis.pptx** to view the full slide deck. It includes objectives, methodology, findings, and recommendations based on your analysis.
 
-        Availability distribution (output/chart_availability.png)
+***
 
-Presentation
+## 📂 Screenshots
 
-See ppt/Airbnb_Hotel_Analysis.pptx for slides covering objectives, methodology, findings, and recommendations.
-Future Work
+- **Basic Mode**: ![Basic Prompt](   
+- **Full Mode**: ![Full Prompt](   
 
-    Extend analysis with machine learning price prediction
+***
 
-    Build an interactive dashboard (Streamlit or Dash)
+## 🔗 GitHub Repository
 
-    Automate data updates and reporting
+Visit the live repo here:  
+https://github.com/YourUsername/airbnb-analysis
+
+Clone and explore all code, data, outputs, and the PPT.
+
+***
+
+## 🌟 Next Steps
+
+- Extend with a machine learning price prediction model  
+- Deploy a web dashboard for interactive exploration  
+- Automate data updates and notifications  
+
+***
+
+**Thank you for reviewing!** Feel free to raise an issue or pull request if you have suggestions.
