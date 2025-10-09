@@ -21,7 +21,7 @@ Welcome to the **Airbnb Hotel Booking Analysis** project! This repository contai
 ├── ppt/
 │   └── airbnb.pptx  # Final presentation
 │
-└── README.md                       # This file
+└── README.md               # This file
 ```
 
 ***
