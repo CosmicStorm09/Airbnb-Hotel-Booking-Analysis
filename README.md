@@ -72,12 +72,6 @@ Welcome to the **Airbnb Hotel Booking Analysis** project! This repository contai
 - **Basic Analysis.png**: Screenshot of basic mode  
 - **Full Analysis.png**: Screenshot of full mode  
 
-## 🔗 GitHub Repository
-
-Visit the live repo here:  
-https://github.com/CosmicStorm09/VOIS_AICTE_Oct2025_Harsh
-
-Clone and explore all code, data, outputs, and the PPT.
 
 ***
 
