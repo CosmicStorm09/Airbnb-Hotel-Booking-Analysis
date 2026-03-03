@@ -2,7 +2,7 @@
 
 Welcome to the **Airbnb Hotel Booking Analysis** project! This repository contains everything needed to reproduce the analysis, view visuals, and review the presentation.
 
-## 📂 Repository Structure  
+##  Repository Structure  
 ```
 ├── data/
 │   └── airbnb.xlsx        # Raw Airbnb dataset (XLSX/CSV)
@@ -26,7 +26,7 @@ Welcome to the **Airbnb Hotel Booking Analysis** project! This repository contai
 
 ***
 
-## 🚀 Quick Start
+##  Quick Start
 
 1. **Clone this repository**  
    ```bash
@@ -53,7 +53,7 @@ Welcome to the **Airbnb Hotel Booking Analysis** project! This repository contai
 
 ***
 
-## 🎯 Project Components
+##  Project Components
 
 ### Python Code (`code/airbnb.py`)  
 - **load_data()**: Reads CSV or loads sample data  
@@ -81,7 +81,7 @@ Clone and explore all code, data, outputs, and the PPT.
 
 ***
 
-## 🌟 Next Steps
+##  Next Steps
 
 - Extend with a machine learning price prediction model  
 - Deploy a web dashboard for interactive exploration  
